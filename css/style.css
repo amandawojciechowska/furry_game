@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/photo-1516528387618-afa90b13e000.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Amatic SC', sans-serif;
+}
+
+section#score {
+  width: 100%;
+}
+
+#board {
+  width: 640px;
+  height: 640px;
+  margin: 5em auto;
+}
+
+#board  > div {    
+  border: 1px solid #006B32;
+  float: left;
+  width: 64px;
+  height: 64px;
+}
+
+
+section#score div {
+  width: 10em;
+  height: 3em;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.25em;
+  background-color: rgba(199,185,13, 0.75);
+  border: 1px solid #B8AB0C;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 1px #B8AB0C;
+  margin: 2em auto;
+}
+
+
+.furry {
+  background-image: url('../images/monkey-474147_960_720.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banana {
+  background-image: url('../images/banana-1300390_960_720.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section#over {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  padding: 10px;
+  background-color: #154345;
+}
+
+
+.invisible {
+  display: none;
+}
+
+
+section#over h1{
+  font-size: 3em;
+  text-align: center;
+  color: black;
+}
+
+
+section#over .endScoreWindow{
+  width: 8em;
+  height: 3em;
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+  background-color: rgba(199,185,13, 0.75);
+  border: 1px solid #B8AB0C;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 1px #B8AB0C;
+  margin: 2em auto;
+}
+
+
+section#over .newGame{
+  text-align: center;
+}
+
+
+section#over #restart{
+  width: 10em;
+  height: 3em;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgba(199,185,13, 0.75);
+  border: 1px solid #B8AB0C;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 1px #B8AB0C;
+  cursor: pointer;
+}
+
+
+section#over button{
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 3em;
+}

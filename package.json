@@ -1,0 +1,24 @@
+{
+  "name": "furry_game",
+  "version": "1.0.0",
+  "description": "FURRY GAME",
+  "main": "index.js",
+  "dependencies": {
+    "webpack-cli": "^2.1.4",
+    "webpack": "^4.10.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amandawojciechowska/furry_game.git"
+  },
+  "author": "Amanda Wojciechowska",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amandawojciechowska/furry_game/issues"
+  },
+  "homepage": "https://github.com/amandawojciechowska/furry_game#readme"
+}
